@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+.body{
+	width: 100%;
+	/*height: 100vh;*/
+	background: url("../image/back.jpg") no-repeat center top / cover;
+}
+
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color: #000002;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 22px;
+
+}
+
+.nav-bar a{	
+	text-decoration: none;
+	color: white;
+}
+
+
+.welcome{
+	height: 155vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 30px;
+}
+ h1{
+	/*border-bottom: 3px solid green;*/
+	text-shadow: 0 0 20px green;
+	font-weight: 400;
+}
+
+.welcome p{
+	margin: 10px 0;
+}
+
+.welcome i{
+	margin-top: 40px;
+	font-size: 40px;
+}
+
+.my-projects{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 300px;
+}
+
+.my-projects h1{
+	font-size: 70px;
+}
+
+.box2	{
+	padding: 40px;
+}
+
+.box{
+	width: 100%;
+	background-color: #F5813A;
+	border-radius: 10px;
+	font-size: 30px;
+	/*padding: 10px;*/
+}
+
+.box img{
+	width: 100%;
+}
+
+.contacts{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	color: white;
+}
+
+.contacts p{
+	font-size: 30px;
+	margin: 20px 0;
+}
+
+footer{
+	background-color: darkgray;
+}
+	
+footer p{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
